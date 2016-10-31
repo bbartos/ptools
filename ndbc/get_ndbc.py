@@ -25,8 +25,6 @@ sn_list = ['wpow1','sisw1','ttiw1','desw1','nwpo3','46088','46087','46041','4602
 #            '46013','46059','46026','46012','46024','46028','46011','46053','46054','46069',
 #            '46025','46047','46086'] # entire West Coast
 
-           
-
 for sn in sn_list:
 # Make a new, clean directory
     which_home = os.environ.get("HOME") # Mac version
